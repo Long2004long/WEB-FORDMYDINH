@@ -1,0 +1,1 @@
+ALTER TABLE `leads` ADD `customer_type` text DEFAULT 'browsing' NOT NULL;

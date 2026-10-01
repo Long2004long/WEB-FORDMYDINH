@@ -1,0 +1,18 @@
+.vehicle-visual img{filter:drop-shadow(0 26px 24px rgba(4,24,51,.12));transition:opacity .14s ease,transform .14s ease}
+.color-changing .vehicle-visual img,.color-changing .explore-media img{opacity:.12}
+.color-changing .vehicle-visual img{transform:scale(.985)}
+.explore-media img{filter:drop-shadow(0 24px 22px rgba(0,0,0,.15));transition:opacity .14s ease}
+@media(prefers-reduced-motion:reduce){.vehicle-visual img,.explore-media img{transition:none}}
+
+/* Show only the vehicle portion of supplied reference photos, without recoloring. */
+.color-photo-window{width:100%;height:100%;position:relative;z-index:1}
+.everest-showcase .color-photo-window,.ranger-showcase .color-photo-window,.raptor-showcase .color-photo-window{transform:scale(1.14);transform-origin:center center}
+.explorer-showcase{min-height:790px}
+.explorer-showcase .vehicle-copy{margin-top:145px}
+.explorer-showcase .vehicle-price{margin-top:0}
+@media(max-width:980px){.explorer-showcase{min-height:740px}.explorer-showcase .vehicle-copy{margin-top:105px}}
+@media(max-width:650px){.everest-showcase .color-photo-window,.ranger-showcase .color-photo-window,.raptor-showcase .color-photo-window{transform:scale(1.08)}.explorer-showcase{min-height:665px}.explorer-showcase .vehicle-copy{margin-top:56px}}
+.color-photo-window[data-crop="mach-green"],.color-photo-window[data-crop="transit-gold"]{height:auto;max-width:700px;overflow:hidden;mix-blend-mode:multiply}
+.color-photo-window[data-crop="mach-green"]{aspect-ratio:643/340}
+.color-photo-window[data-crop="transit-gold"]{aspect-ratio:865/365}
+.color-photo-window[data-crop="mach-green"] img,.color-photo-window[data-crop="transit-gold"] img{width:100%;height:auto;max-height:none;display:block;object-fit:initial;filter:none;animation:none}

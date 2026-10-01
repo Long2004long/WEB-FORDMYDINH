@@ -1,0 +1,7 @@
+.explorer-mark{
+  height:155px;
+  background:#f4f7fb url('/assets/vehicles/explorer-white-cutout.png') center/contain no-repeat;
+  color:transparent;
+  font-size:0;
+}
+@media(max-width:700px){.explorer-mark{height:105px}}

@@ -1,0 +1,1 @@
+import "./globals.css"; export const metadata={title:"Quản trị | Ford Mỹ Đình",robots:{index:false,follow:false}}; export default function Layout({children}:{children:React.ReactNode}){return <html lang="vi"><body>{children}</body></html>}
