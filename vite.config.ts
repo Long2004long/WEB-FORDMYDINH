@@ -1,11 +1,11 @@
-import vinext from "vinext";
+﻿import vinext from "vinext";
 import { defineConfig } from "vite";
 import hostingConfig from "./.openai/hosting.json";
 import { readExecutionProfile } from "./scripts/execution-profile.mjs";
 import { sites } from "./build/sites-vite-plugin";
 
 const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
-  "00000000-0000-4000-8000-000000000000";
+  "4a18bc87-f620-4adb-80eb-4ec928da5a27";
 
 const { d1, r2 } = hostingConfig;
 
